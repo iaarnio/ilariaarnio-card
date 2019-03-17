@@ -1,9 +1,24 @@
-It's me, Tierney!
+It's me, Ilari!
 
 # Usage
 Via npx:
 ```
-npx bitandbang
+git@github.com:iaarnio/ilariaarnio-card.git
 ```
 
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+```
+   ╭─────────────────────────────────────────────────────╮
+   │                                                     │
+   │                 Ilari Aarnio / iaarnio              │
+   │                                                     │
+   │        Work:  Entrepreneur / Full stack developer   │
+   │     Twitter:  https://twitter.com/iaarnio           │
+   │         npm:  https://npmjs.com/~iaarnio            │
+   │      GitHub:  https://github.com/iaarnio            │
+   │    LinkedIn:  https://linkedin.com/in/ilariaarnio   │
+   │         Web:  https://www.codesys.fi                │
+   │                                                     │
+   │        Card:  npx iaarnio/card                      │
+   │                                                     │
+   ╰─────────────────────────────────────────────────────╯
+```
