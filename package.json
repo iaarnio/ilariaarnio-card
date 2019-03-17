@@ -1,5 +1,5 @@
 {
-  "name": "@iaarnio/card",
+  "name": "@aarnila/card",
   "version": "1.0.0",
   "description": "A personal card for Ilari Aarnio (@iaarnio)",
   "main": "/bin/card.js",

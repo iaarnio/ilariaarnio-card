@@ -5,7 +5,7 @@ It's me, Ilari!
 ## Usage
 Via npx:
 ```
-npx iaarnio/card
+npx @aarnila/card
 ```
 
 ## Preview
