@@ -55,4 +55,4 @@ const output = heading + // data.name + data.handle
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
-fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
+fs.writeFileSync(path.join(__dirname, 'data/output'), chalk.green(boxen(output, options)))
