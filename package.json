@@ -4,7 +4,7 @@
   "description": "A personal card for Ilari Aarnio (@iaarnio)",
   "main": "/src/index.js",
   "bin": {
-    "ilariaarnio-card": "./src/index.js"
+    "ilariaarnio-card": "./dist-src/index.js"
   },
   "repository": {
     "type": "git",
