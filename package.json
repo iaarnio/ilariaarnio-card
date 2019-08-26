@@ -26,6 +26,9 @@
         {
           "exclude": [
             "__tests__/**/*"
+          ],
+          "include": [
+            "data/**/*"
           ]
         }
       ]
@@ -39,7 +42,7 @@
   "license": "MIT",
   "files": [
     "src/index.js",
-    "src/output"
+    "data/output"
   ],
   "devDependencies": {
     "boxen": "^4.0.0",
