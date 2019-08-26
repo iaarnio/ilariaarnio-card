@@ -1,6 +1,6 @@
 {
   "name": "@aarnila/card",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "A personal card for Ilari Aarnio (@iaarnio)",
   "main": "/src/index.js",
   "bin": {
