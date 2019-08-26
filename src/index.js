@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 // 👆 Used to tell Node.js that this is a CLI tool
 
-'use strict';
+"use strict";
 
-const fs = require('fs');
-const path = require('path');
-const output = fs.readFileSync(path.join(__dirname, '../data', 'output'), 'utf8');
+const fs = require("fs");
+const output = fs.readFileSync("../data/output", "utf8");
 console.log(output);
