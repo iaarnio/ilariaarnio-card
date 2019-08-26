@@ -5,5 +5,5 @@
 
 const fs = require('fs');
 const path = require('path');
-const output = fs.readFileSync(path.join(`import.meta.url`, '../data', 'output'), 'utf8');
+const output = fs.readFileSync(path.join(__dirname, '../data', 'output'), 'utf8');
 console.log(output);
