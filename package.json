@@ -1,7 +1,7 @@
 {
   "name": "@aarnila/card",
   "version": "1.5.8",
-  "description": "A personal card for Ilari Aarnio (@iaarnio)",
+  "description": "The personal card for Ilari Aarnio (@iaarnio)",
   "main": "/src/index.js",
   "bin": {
     "ilariaarnio-card": "./dist-src/index.js"
@@ -22,13 +22,13 @@
   "@pika/pack": {
     "pipeline": [
       [
-        "@pika/plugin-standard-pkg",
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-copy-assets",
         {
-          "exclude": [
-            "__tests__/**/*"
-          ],
-          "include": [
-            "data/**/*"
+          "files": [
+            "data/"
           ]
         }
       ]
@@ -41,10 +41,10 @@
   "author": "Ilari Aarnio",
   "license": "MIT",
   "files": [
-    "src/index.js",
-    "data/output"
+    "src/index.js"
   ],
   "devDependencies": {
+    "@pika/plugin-copy-assets": "^0.6.0",
     "boxen": "^4.0.0",
     "chalk": "^2.4.2",
     "command-line-test": "^1.0.10",
