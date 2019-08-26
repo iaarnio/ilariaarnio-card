@@ -1,10 +1,10 @@
 {
   "name": "@aarnila/card",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "A personal card for Ilari Aarnio (@iaarnio)",
   "main": "/src/index.js",
   "bin": {
-    "ilariaarnio-card": "./dist-src/index.js"
+    "ilariaarnio-card": "./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "lint": "standard",
     "test": "jest"
   },
-  "module": "dist-src/index.js",
+  "module": "src/index.js",
   "@pika/pack": {
     "pipeline": [
       [
