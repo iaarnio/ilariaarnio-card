@@ -14,7 +14,7 @@
     "prepublishOnly": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./src/index.js",
-    "bump": "npx bumped patch",
+    "bump": "npx bumped release patch",
     "lint": "standard",
     "test": "jest"
   },
