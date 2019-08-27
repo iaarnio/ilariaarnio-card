@@ -11,9 +11,7 @@
     "url": "https://github.com/iaarnio/ilariaarnio-card.git"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
-    "build": "node build.js",
-    "dev": "npm run build && cd src && node index.js",
+    "dev": "node src/index.js",
     "bump": "npx bumped release patch",
     "lint": "standard",
     "test": "jest"
@@ -23,14 +21,6 @@
     "pipeline": [
       [
         "@pika/plugin-standard-pkg"
-      ],
-      [
-        "@pika/plugin-copy-assets",
-        {
-          "files": [
-            "data/"
-          ]
-        }
       ]
     ]
   },
@@ -41,18 +31,17 @@
   "author": "Ilari Aarnio",
   "license": "MIT",
   "files": [
-    "src/index.js"
+    "src/index.js",
+    "src/card.js"
   ],
   "devDependencies": {
-    "@pika/plugin-copy-assets": "^0.6.0",
-    "boxen": "^4.0.0",
-    "chalk": "^2.4.2",
+    "@pika/plugin-standard-pkg": "^0.4.0",
     "command-line-test": "^1.0.10",
     "jest": "^24.9.0",
-    "release-it": "^12.3.5",
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "@pika/plugin-standard-pkg": "^0.4.0"
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2"
   }
 }
