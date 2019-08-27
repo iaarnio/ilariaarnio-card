@@ -3,14 +3,18 @@
 It's me, Ilari!
 
 ## Usage
+
 Via npx:
+
 ```
 npx @aarnila/card
 ```
 
 ## Preview
+
 ![Preview](./preview.png)
 
 ## Credits
 
-Forked from Tierney Cyren's https://github.com/bnb/bitandbang
+Based on original idea of Tierney Cyren.
+Forked from https://github.com/bnb/bitandbang
