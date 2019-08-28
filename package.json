@@ -3,6 +3,9 @@
   "version": "1.7.2",
   "description": "The personal card for Ilari Aarnio (@iaarnio)",
   "main": "/src/index.js",
+  "bin": {
+    "card": "./src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iaarnio/ilariaarnio-card.git"
