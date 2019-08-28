@@ -5,7 +5,7 @@
   "main": "/src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iaarnio/ilariaarnio-card.git"
+    "url": "git+https://github.com/iaarnio/ilariaarnio-card.git"
   },
   "scripts": {
     "start": "node src/index.js",
@@ -26,5 +26,13 @@
   "dependencies": {
     "boxen": "^4.0.0",
     "chalk": "^2.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/iaarnio/ilariaarnio-card/issues"
+  },
+  "homepage": "https://github.com/iaarnio/ilariaarnio-card#readme",
+  "directories": {
+    "src": "src",
+    "test": "test"
   }
 }
