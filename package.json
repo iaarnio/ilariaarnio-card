@@ -1,34 +1,16 @@
 {
   "name": "@aarnila/card",
-  "version": "1.6.1",
+  "version": "1.6.12",
   "description": "The personal card for Ilari Aarnio (@iaarnio)",
   "main": "/src/index.js",
-  "bin": {
-    "ilariaarnio-card": "./dist-src/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/iaarnio/ilariaarnio-card.git"
   },
   "scripts": {
     "dev": "node src/index.js",
-    "build": "pack build",
-    "prepublish": "npm run build && npm run test",
-    "publish": "pack publish",
-    "bump": "npx bumped release patch",
     "lint": "standard",
     "test": "jest"
-  },
-  "module": "dist-src/index.js",
-  "@pika/pack": {
-    "pipeline": [
-      [
-        "@pika/plugin-standard-pkg"
-      ],
-      [
-        "@pika/plugin-build-node"
-      ]
-    ]
   },
   "keywords": [
     "npx card",
@@ -36,13 +18,7 @@
   ],
   "author": "Ilari Aarnio",
   "license": "MIT",
-  "files": [
-    "src/index.js",
-    "src/card.js"
-  ],
   "devDependencies": {
-    "@pika/plugin-build-node": "^0.6.0",
-    "@pika/plugin-standard-pkg": "^0.4.0",
     "command-line-test": "^1.0.10",
     "jest": "^24.9.0",
     "standard": "^12.0.1"
