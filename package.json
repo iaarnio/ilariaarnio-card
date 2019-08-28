@@ -12,6 +12,10 @@
   },
   "scripts": {
     "dev": "node src/index.js",
+    "start": "node pkg/dist-src/index.js",
+    "build": "pack build",
+    "prepublish": "npm run build && npm run test",
+    "publish": "pack publish",
     "bump": "npx bumped release patch",
     "lint": "standard",
     "test": "jest"
