@@ -12,7 +12,6 @@
   },
   "scripts": {
     "dev": "node src/index.js",
-    "start": "node pkg/dist-src/index.js",
     "build": "pack build",
     "prepublish": "npm run build && npm run test",
     "publish": "pack publish",
@@ -25,6 +24,9 @@
     "pipeline": [
       [
         "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
       ]
     ]
   },
@@ -39,6 +41,7 @@
     "src/card.js"
   ],
   "devDependencies": {
+    "@pika/plugin-build-node": "^0.6.0",
     "@pika/plugin-standard-pkg": "^0.4.0",
     "command-line-test": "^1.0.10",
     "jest": "^24.9.0",
