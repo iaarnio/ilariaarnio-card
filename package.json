@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "command-line-test": "1.0.10",
-    "jest": "26.0.1"
+    "jest": "26.6.2"
   },
   "dependencies": {
     "boxen": "^4.0.0",
